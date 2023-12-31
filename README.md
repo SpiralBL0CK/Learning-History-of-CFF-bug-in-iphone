@@ -25,3 +25,6 @@ So from where do we know that it's purpose is to read what fonts are being used 
 which we see that are the next bytes after the metadata of the file
 
 ![Screenshot 2023-12-31 090921](https://github.com/SpiralBL0CK/Learning-History-of-CFF-bug-in-iphone/assets/25670930/a162524f-79d0-4160-8b4c-f38870d56248)
+
+We will come back later to the analysis of this function later but for now we can deduce that the file format is
+|major version(1 byte)|minor version(1 byte)|header size(1 byte) | header absoffsize(1 bytes) | ABCDEF+fonts in pack|
