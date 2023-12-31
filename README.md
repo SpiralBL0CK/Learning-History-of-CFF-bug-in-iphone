@@ -8,3 +8,8 @@ So... We start by using cff.py script provided by the author and we also open ou
 
 We can see that when we feed the file to the parse we get the folllowing
 ![1](https://github.com/SpiralBL0CK/Learning-History-of-CFF-bug-in-iphone/assets/25670930/29521729-462b-42a5-9ba9-f07381011c04)
+
+So we have already done some progress as we can already come with a definition for cff as we can come to the conclusion that we have some metadata about it's header which indicates the tff versions i presume, the headersize,and absoffsize whatever that might be.
+
+So until now 
+|version(1
