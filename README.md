@@ -12,4 +12,4 @@ We can see that when we feed the file to the parse we get the folllowing
 So we have already done some progress as we can already come with a definition for cff as we can come to the conclusion that we have some metadata about it's header which indicates the tff versions i presume, the headersize,and absoffsize whatever that might be.
 
 So until now 
-|version(1
+|major version(1 byte)|minor version(1 byte)|header size(1 byte) | header absoffsize(1 bytes) |
