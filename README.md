@@ -33,6 +33,10 @@ Further we see that we search for what is called string in the script:
 
 ![1](https://github.com/SpiralBL0CK/Learning-History-of-CFF-bug-in-iphone/assets/25670930/469a7826-f09d-40e0-9dc5-c72e3b7ebb79)
 
-Why is that ? at the moment of writing this document i have no ideea but i will update once i know why we search for this. Anyways one interesting thing to note here is that we skipped roughly 41 bytes.
+Why is that ? at the moment of writing this document i have no ideea but i will update once i know why we search for this. Anyways one interesting thing to note here is that we skipped roughly 41 bytes in order to get to the string.
 
 ![1](https://github.com/SpiralBL0CK/Learning-History-of-CFF-bug-in-iphone/assets/25670930/79b606ab-c340-44c7-aae6-e504ed205af3)
+
+![1](https://github.com/SpiralBL0CK/Learning-History-of-CFF-bug-in-iphone/assets/25670930/6833be3b-a1ed-415a-ba4c-4fea1b28808b)
+
+
