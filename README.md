@@ -13,3 +13,11 @@ So we have already done some progress as we can already come with a definition f
 
 So until now 
 |major version(1 byte)|minor version(1 byte)|header size(1 byte) | header absoffsize(1 bytes) |
+
+We than go further and have a function which get's what fonts are being used in this .cff file. As seen
+
+![Screenshot 2023-12-31 090700](https://github.com/SpiralBL0CK/Learning-History-of-CFF-bug-in-iphone/assets/25670930/7a30480c-f4c5-4b6c-8d77-d125a1fa6155)
+
+So from where do we know that it's purpose is to read what fonts are being used ? Well upon running the tool we got the following result in cmd
+
+![Screenshot 2023-12-31 090837](https://github.com/SpiralBL0CK/Learning-History-of-CFF-bug-in-iphone/assets/25670930/b18f2ba8-f87e-4705-8886-3b6d6ebde683)
