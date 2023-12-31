@@ -21,3 +21,7 @@ We than go further and have a function which get's what fonts are being used in 
 So from where do we know that it's purpose is to read what fonts are being used ? Well upon running the tool we got the following result in cmd
 
 ![Screenshot 2023-12-31 090837](https://github.com/SpiralBL0CK/Learning-History-of-CFF-bug-in-iphone/assets/25670930/b18f2ba8-f87e-4705-8886-3b6d6ebde683)
+
+which we see that are the next bytes after the metadata of the file
+
+![Screenshot 2023-12-31 090921](https://github.com/SpiralBL0CK/Learning-History-of-CFF-bug-in-iphone/assets/25670930/a162524f-79d0-4160-8b4c-f38870d56248)
