@@ -39,4 +39,6 @@ Why is that ? at the moment of writing this document i have no ideea but i will 
 
 ![1](https://github.com/SpiralBL0CK/Learning-History-of-CFF-bug-in-iphone/assets/25670930/6833be3b-a1ed-415a-ba4c-4fea1b28808b)
 
+next we get information about the fonts present in the .cff file
 
+![1](https://github.com/SpiralBL0CK/Learning-History-of-CFF-bug-in-iphone/assets/25670930/14f720e7-a8cb-4e6a-8d31-344b950997e3)
