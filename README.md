@@ -41,4 +41,9 @@ Why is that ? Because i presume that they want to gether info about the font use
 
 next we get information about the fonts present in the .cff file
 
-![1](https://github.com/SpiralBL0CK/Learning-History-of-CFF-bug-in-iphone/assets/25670930/14f720e7-a8cb-4e6a-8d31-344b950997e3)
+![1](https://github.com/SpiralBL0CK/Learning-History-of-CFF-bug-in-iphone/assets/25670930/14f720e7-a8cb-4e6a-8d31-344b950997e3) 
+
+How tf do we do that ? well we gather what's called top dict data . wtf is that ? well from what i was able to understand from the docs, is a python dict with certain information in it , encoded in a certain way.
+
+![1](https://github.com/SpiralBL0CK/Learning-History-of-CFF-bug-in-iphone/assets/25670930/46814a81-f56f-42fc-a8e6-492380d588fb)
+
