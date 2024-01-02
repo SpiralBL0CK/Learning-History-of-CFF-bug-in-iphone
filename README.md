@@ -47,3 +47,8 @@ How tf do we do that ? well we gather what's called top dict data . wtf is that 
 
 ![1](https://github.com/SpiralBL0CK/Learning-History-of-CFF-bug-in-iphone/assets/25670930/46814a81-f56f-42fc-a8e6-492380d588fb)
 
+Coincidently, if we follow the decoding algo:
+
+![1](https://github.com/SpiralBL0CK/Learning-History-of-CFF-bug-in-iphone/assets/25670930/ce1dba7c-3d0a-4c2d-8108-618db8f47bbb)
+
+we dereference the strings data type to get info about the font, so we conclude that the topdicts simply has some indexes which later get used in strings data type to get info about font
