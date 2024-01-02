@@ -52,3 +52,7 @@ Coincidently, if we follow the decoding algo:
 ![1](https://github.com/SpiralBL0CK/Learning-History-of-CFF-bug-in-iphone/assets/25670930/ce1dba7c-3d0a-4c2d-8108-618db8f47bbb)
 
 we dereference the strings data type to get info about the font, so we conclude that the topdicts simply has some indexes which later get used in strings data type to get info about font
+
+So till now the definition of the file still stands,
+
+|major version(1 byte)|minor version(1 byte)|header size(1 byte) | header absoffsize(1 bytes) | ABCDEF+fonts in pack|41 bytes known|25 bytes of info about font|
