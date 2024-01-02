@@ -56,3 +56,17 @@ we dereference the strings data type to get info about the font, so we conclude 
 So till now the definition of the file still stands,
 
 |major version(1 byte)|minor version(1 byte)|header size(1 byte) | header absoffsize(1 bytes) | ABCDEF+fonts in pack|41 bytes known|25 bytes of info about font|
+
+Cool so what happens next ?
+Well if we inspect the parser script we see that it gets,charstring_off,private_off and it will go to charstring_off position and read some more stuff
+
+![1](https://github.com/SpiralBL0CK/Learning-History-of-CFF-bug-in-iphone/assets/25670930/6c2f6659-b166-4ba8-ba14-89c94fd48a09)
+
+But how does it help us to make sense of bigger view. So i will abruptly conclude this. Basically i did a diff between 2 files, one normal cff and the corrupted cff.
+
+![1](https://github.com/SpiralBL0CK/Learning-History-of-CFF-bug-in-iphone/assets/25670930/9eab7c93-6b51-4db6-acd7-4f23306ce5f3)
+
+On left is the corrupted .cff file and on right is a normal .cff file. If we inspect the runtime result
+
+![1](https://github.com/SpiralBL0CK/Learning-History-of-CFF-bug-in-iphone/assets/25670930/c3ee9848-c69d-46e2-8e47-15ad633a498c)
+
