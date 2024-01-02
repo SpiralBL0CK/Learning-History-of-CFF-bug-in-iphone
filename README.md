@@ -75,3 +75,11 @@ On first time when running the parse we see that everything such as count , offs
 ![1](https://github.com/SpiralBL0CK/Learning-History-of-CFF-bug-in-iphone/assets/25670930/024e70d5-6520-4d18-92cd-dafd5b0a8466)
 
 As can also be seen in "second run of parse"
+
+![1](https://github.com/SpiralBL0CK/Learning-History-of-CFF-bug-in-iphone/assets/25670930/6c500d41-aa50-413e-90e9-b5e13b833b97)
+
+we see at 0x6c offset in hexviewr the \x0e\0xe\0xe\x0e beginning of out mallicous data
+
+So as a conclusion a general format of .cff file  format
+|major version(1 byte)|minor version(1 byte)|header size(1 byte) | header absoffsize(1 bytes) | ABCDEF+fonts in pack|41 bytes known|25 bytes of info about font|
+
