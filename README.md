@@ -86,6 +86,6 @@ So as a conclusion a general format of .cff file  format
 
 And custom file format(with user content)
 
-|major version(1 byte)|minor version(1 byte)|header size(1 byte) | header absoffsize(1 bytes) | ABCDEF+fonts in pack|41 bytes known|25 bytes of info about font| 4 bytes(count) | 4 bytes(offsize) | 9 bytes left to be doccumented| user content|
+|major version(1 byte)|minor version(1 byte)|header size(1 byte) | header absoffsize(1 bytes) | ABCDEF+fonts in pack|41 bytes uknown|25 bytes of info about font| 4 bytes(count) | 4 bytes(offsize) | 9 bytes left to be doccumented| user content|
 
 
