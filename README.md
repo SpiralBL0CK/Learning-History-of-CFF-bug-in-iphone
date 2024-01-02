@@ -70,3 +70,8 @@ On left is the corrupted .cff file and on right is a normal .cff file. If we ins
 
 ![1](https://github.com/SpiralBL0CK/Learning-History-of-CFF-bug-in-iphone/assets/25670930/c3ee9848-c69d-46e2-8e47-15ad633a498c)
 
+On first time when running the parse we see that everything such as count , offsize, offbase is simply some offsets till some delimters. What delimiters ? Precisly the name of font. So as you can see ('offbase', 8L) so from the start of the file till first encounter of the string of the font present in cff file 
+
+![1](https://github.com/SpiralBL0CK/Learning-History-of-CFF-bug-in-iphone/assets/25670930/024e70d5-6520-4d18-92cd-dafd5b0a8466)
+
+As can also be seen in "second run of parse"
